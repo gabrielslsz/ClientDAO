@@ -9,7 +9,11 @@ namespace WinFormsApp1.Models
     public class Client
     {
         public int id;
-        
-        p
+        public string firstName = "";
+        public string lastName = "";
+        public string email = "";
+        public string phone = "";
+        public string address = "";
+        public string createdAt = "";
     }
 }
